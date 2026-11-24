@@ -1,0 +1,6 @@
+calculator('4*185 + 3*95')       -> 1025
+calculator('1,200 - 1025')       -> 175
+calculator("__import__('os')") -> Error: Unsupported expression
+calculator('2**1000000')         -> Error: Unsupported expression
+wiki_lookup('Bono East Region')  -> The Bono East region of Ghana is a new region carved out of the Brong Ahafo region. The capital of the new region is Techiman. This creation of this new region was in fulfillment of a promise made by  ...
+wiki_lookup('Xyzzy Nonexistent Page 403') -> No Wikipedia page found for 'Xyzzy Nonexistent Page 403'.

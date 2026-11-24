@@ -1,0 +1,22 @@
+FAILURE 1 (first run of react_agent.py, prompt v1, before the fix)
+Model: groq/openai/gpt-oss-20b
+Question: I have GHS 1,200. I want 4 bags of rice at GHS 185 each and 3 gallons of oil at GHS 95 each. How much will I have left?
+
+--- Step 1 ---
+Traceback (most recent call last):
+  ...
+  File "lab02/react_agent.py", line 87, in run_agent
+    reply, tokens = call_model(messages)
+  File "lab02/react_agent.py", line 64, in call_model
+    resp = completion(model=MODEL, messages=messages, temperature=0,
+  ...
+litellm.exceptions.BadRequestError: litellm.BadRequestError: GroqException -
+{"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error",
+"code":"tool_use_failed",
+"failed_generation":"{\"name\": \"calculator\", \"arguments\": {\"expression\":\"4*185 + 3*95\"}}"}}
+
+Cause: gpt-oss-20b is trained for native function calling. The system prompt listed "Tools:" by name,
+so instead of writing the text protocol (Thought / Action / Action Input) the model emitted a native
+JSON tool call. Our request declared no tools (tool_choice is none), so Groq rejected the reply with
+HTTP 400 and the exception was not caught: the agent crashed on step 1.
+Note the model's *decision* was correct (calculator, 4*185 + 3*95); only the *format* was wrong.

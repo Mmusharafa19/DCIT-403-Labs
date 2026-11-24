@@ -1,0 +1,18 @@
+Model: groq/openai/gpt-oss-20b
+
+## Budget run 1
+175 GHS. 1200 − (4 × 185 + 3 × 95) = 175
+
+## Budget run 2
+GHS 175. 4×185 + 3×95 = 740 + 285 = 1025; 1200 – 1025 = 175.
+
+## Budget run 3
+175 GHS  
+1200 - (4*185 + 3*95) = 175
+
+## Factual 1: What is the capital of the Bono East Region of Ghana? One sentence.
+The capital of Ghana’s Bono East Region is Techiman.
+
+## Factual 2: In what year was the Ghanaian cedi first introduced, and what currency did it replace? One sentence.
+The Ghanaian cedi was first introduced in 1965, replacing the Ghanaian pound.
+

@@ -1,0 +1,24 @@
+=== temperature=0 ===
+An intelligent agent is an autonomous system that perceives its environment, processes information, and takes actions to achieve its goals.
+Usage(completion_tokens=90, prompt_tokens=90, total_tokens=180, completion_tokens_details=CompletionTokensDetailsWrapper(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=57, rejected_prediction_tokens=None, text_tokens=None, image_tokens=None, video_tokens=None), prompt_tokens_details=None, queue_time=0.247935602, prompt_time=0.005921082, completion_time=0.09626678, total_time=0.102187862)
+
+=== temperature=0 ===
+An intelligent agent is an autonomous system that perceives its environment, processes information, and takes actions to achieve its goals.
+Usage(completion_tokens=90, prompt_tokens=90, total_tokens=180, completion_tokens_details=CompletionTokensDetailsWrapper(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=57, rejected_prediction_tokens=None, text_tokens=None, image_tokens=None, video_tokens=None), prompt_tokens_details=None, queue_time=0.29185063, prompt_time=0.005987048, completion_time=0.096936919, total_time=0.102923967)
+
+=== temperature=0 ===
+An intelligent agent is an autonomous system that perceives its environment, processes information, and takes actions to achieve its goals.
+Usage(completion_tokens=90, prompt_tokens=90, total_tokens=180, completion_tokens_details=CompletionTokensDetailsWrapper(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=57, rejected_prediction_tokens=None, text_tokens=None, image_tokens=None, video_tokens=None), prompt_tokens_details=None, queue_time=0.190022964, prompt_time=0.004276655, completion_time=0.092663643, total_time=0.096940298)
+
+=== temperature=1 ===
+An intelligent agent is an autonomous system that perceives its environment, interprets sensory data, and takes actions to achieve its goals or optimize a given objective.
+Usage(completion_tokens=91, prompt_tokens=90, total_tokens=181, completion_tokens_details=CompletionTokensDetailsWrapper(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=51, rejected_prediction_tokens=None, text_tokens=None, image_tokens=None, video_tokens=None), prompt_tokens_details=None, queue_time=0.145372549, prompt_time=0.00500678, completion_time=0.134069666, total_time=0.139076446)
+
+=== temperature=1 ===
+An intelligent agent is a system that perceives its environment through sensors, processes that information, and takes actions via actuators to achieve specified goals.
+Usage(completion_tokens=155, prompt_tokens=90, total_tokens=245, completion_tokens_details=CompletionTokensDetailsWrapper(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=117, rejected_prediction_tokens=None, text_tokens=None, image_tokens=None, video_tokens=None), prompt_tokens_details=None, queue_time=0.016139652, prompt_time=0.004973923, completion_time=0.159482284, total_time=0.164456207)
+
+=== temperature=1 ===
+An intelligent agent is an autonomous system that perceives its environment, reasons about it, and takes actions to achieve specified goals or maximize a utility function.
+Usage(completion_tokens=132, prompt_tokens=90, total_tokens=222, completion_tokens_details=CompletionTokensDetailsWrapper(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=93, rejected_prediction_tokens=None, text_tokens=None, image_tokens=None, video_tokens=None), prompt_tokens_details=None, queue_time=0.190029134, prompt_time=0.004304995, completion_time=0.142202905, total_time=0.1465079)
+

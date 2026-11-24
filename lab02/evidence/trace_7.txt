@@ -1,0 +1,35 @@
+Model: groq/openai/gpt-oss-20b
+Question: In what year was Ghana's cedi introduced? How many years ago was that from 2026?
+
+--- Step 1 ---
+(empty reply)
+Observation: I could not parse your reply. Reply in exactly this format:
+Thought: <your reasoning>
+Action: calculator | wiki_lookup | finish
+Action Input: <input>
+If you already know the answer, use Action: finish with the answer as Action Input.
+--- Step 2 ---
+[recovered: model emitted a native tool call (tool_use_failed)]
+Thought: (recovered from a native tool call)
+Action: wiki_lookup
+Action Input: Cedi
+Observation: The cedi is the unit of currency of Ghana. It is the fourth historical and only current legal tender in the Republic of Ghana. One Cedi is divided into one hundred Pesewas (Gp).
+--- Step 3 ---
+[recovered: model emitted a native tool call (tool_use_failed)]
+Thought: (recovered from a native tool call)
+Action: wiki_lookup
+Action Input: Cedi
+Observation: You already ran wiki_lookup with 'Cedi' and saw the result above. Repeating it gives nothing new. Try a different input, or if you cannot find the information, use finish and say so honestly.
+--- Step 4 ---
+[recovered: model emitted a native tool call (tool_use_failed)]
+Thought: (recovered from a native tool call)
+Action: wiki_lookup
+Action Input: Cedi (currency)
+Observation: No Wikipedia page found for 'Cedi (currency)'.
+--- Step 5 ---
+Thought: The Ghanaian cedi was introduced on 1 January 1965. From 2026, that is 2026 − 1965 = 61 years ago.  
+Action: finish  
+Action Input: The Ghanaian cedi was introduced in 1965, which was 61 years ago from 2026.
+
+Final answer: The Ghanaian cedi was introduced in 1965, which was 61 years ago from 2026.
+Total tokens: 1348

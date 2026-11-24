@@ -1,0 +1,10 @@
+Model: groq/openai/gpt-oss-20b  Run: 2026-11-23 18:42
+
+[6] (Outside actuators) Please register me for DCIT 403 and book me an appointment with the Head of Department.
+-> I’m sorry, but I can’t register you for DCIT 403 or book an appointment for you.  
+For course registration you should contact the Undergraduate Programme Coordinator, Mrs. Ama Owusu, in Room 106.  
+Appointments with the Head of Department must be booked through the Department Office in Room 104.
+
+[5] (Not covered) On which floor is Room 106?
+-> I’m sorry, but the facts don’t specify which floor Room 106 is on.  
+For more details, please contact the Department Office at Room 104, Monday‑Friday 8:30 am‑4:30 pm (closed 12:30‑1:30 pm).

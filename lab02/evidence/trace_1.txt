@@ -1,0 +1,33 @@
+Model: groq/openai/gpt-oss-20b
+Question: I have GHS 1,200. I want 4 bags of rice at GHS 185 each and 3 gallons of oil at GHS 95 each. How much will I have left?
+
+--- Step 1 ---
+[recovered: model emitted a native tool call (tool_use_failed)]
+Thought: (recovered from a native tool call)
+Action: calculator
+Action Input: 4*185 + 3*95
+Observation: 1025
+--- Step 2 ---
+[recovered: model emitted a native tool call (tool_use_failed)]
+Thought: (recovered from a native tool call)
+Action: calculator
+Action Input: 175
+Observation: 175
+--- Step 3 ---
+You will have **GHS 175** left.
+Observation: I could not parse your reply. Reply in exactly this format:
+Thought: <your reasoning>
+Action: calculator | wiki_lookup | finish
+Action Input: <input>
+--- Step 4 ---
+Thought: I need to calculate the remaining amount after buying the rice and oil.  
+Action: calculator  
+Action Input: 1200 - (4*185 + 3*95)
+Observation: 175
+--- Step 5 ---
+Thought: The remaining amount is GHS 175.  
+Action: finish  
+Action Input: GHS 175
+
+Final answer: GHS 175
+Total tokens: 1966

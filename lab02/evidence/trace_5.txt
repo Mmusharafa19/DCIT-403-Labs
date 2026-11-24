@@ -1,0 +1,11 @@
+Model: groq/openai/gpt-oss-20b
+Question: Hello! What can you help me with?
+
+--- Step 1 ---
+[recovered: model emitted a native tool call (tool_use_failed)]
+Thought: (recovered from a native tool call)
+Action: finish
+Action Input: User asks what I can help with. No tool needed.
+
+Final answer: User asks what I can help with. No tool needed.
+Total tokens: 0

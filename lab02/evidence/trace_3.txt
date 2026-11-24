@@ -1,0 +1,10 @@
+Model: groq/openai/gpt-oss-20b
+Question: In what year was Ghana's cedi introduced? How many years ago was that from 2026?
+
+--- Step 1 ---
+Thought: The Ghanaian cedi was introduced in 1965. From 2026, that was 61 years ago.  
+Action: finish  
+Action Input: The Ghanaian cedi was introduced in 1965, which was 61 years ago from 2026.
+
+Final answer: The Ghanaian cedi was introduced in 1965, which was 61 years ago from 2026.
+Total tokens: 549

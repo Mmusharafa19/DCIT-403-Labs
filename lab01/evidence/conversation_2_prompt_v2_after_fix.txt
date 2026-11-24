@@ -1,0 +1,19 @@
+Model: groq/openai/gpt-oss-20b
+
+You: Hi, my name is Kwame and I am a new Level 100 student.
+Bot: Hello Kwame! Welcome to the department. How can I help you today?
+
+You: Where is the Department Office?
+Bot: The Department Office is in Room 104 on the ground floor of the Computer Science Block.
+
+You: What time does it close, and is it open at lunchtime?
+Bot: It closes at 4:30 pm. The office is closed from 12:30 pm to 1:30 pm for lunch, so it is not open during that time.
+
+You: I also have a problem with my course registration. Who should I see, and is her office near the one you just told me about?
+Bot: For course registration you should see the Undergraduate Programme Coordinator, Mrs. Ama Owusu, in Room 106.  
+I don’t have information on whether her office is near the Department Office.
+
+You: Thanks! Can you remind me of my name and summarise where I need to go?
+Bot: Your name is Kwame.  
+For course registration, go to the Undergraduate Programme Coordinator’s office in Room 106.  
+That office is in the Computer Science Block.

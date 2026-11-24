@@ -1,0 +1,3 @@
+What is the difference between an agent and a rational agent?
+Name the four parts of a PEAS description.
+Why is a chatbot's environment usually partially observable?
